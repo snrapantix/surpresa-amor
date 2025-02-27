@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title> feliz Aniversário meu amor </title>
+ <style>
+  body {
+   background-color: #f2f2f2;
+  }
+  .container {
+   width: 80%;
+   margin: 40px auto;
+   text-align: center;
+  }
+ <img src="https://example.com/IMG_20250215-WA0030.jpg" alt="Imagem">
+   {width: 1,4MP;
+   height: 200px;
+   border-radius: 50%;
+   margin: 20px auto;
+  }
+  .frase {
+   font-size: 24px;
+   font-weight: bold;
+   color: #333;
+   animation: movimento 5s infinite;
+  }
+  @keyframes movimento {
+   0% {
+    transform: translateX(0);
+   }
+   50% {
+    transform: translateX(100px);
+   }
+   100% {
+    transform: translateX(0);
+   }
+  }
+ </style>
+</head>
+<body>
+ <div class="container">
+  <img src="imagem.jpg" class="imagem" alt="Imagem de aniversário">
+  <p class="frase">Feliz aniversário! Que este dia seja repleto de alegria e felicidade te amo!</p>
+ </div>
+</body>
+</html>
