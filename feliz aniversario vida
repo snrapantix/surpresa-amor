@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
- <title> feliz Aniversário meu amor </title>
+ <title>Aniversário</title>
  <style>
   body {
    background-color: #f2f2f2;
@@ -11,8 +11,8 @@
    margin: 40px auto;
    text-align: center;
   }
- <img src="https://example.com/IMG_20250215-WA0030.jpg" alt="Imagem">
-   {width: 1,4MP;
+  .imagem {
+   width: 200px;
    height: 200px;
    border-radius: 50%;
    margin: 20px auto;
@@ -39,7 +39,9 @@
 <body>
  <div class="container">
   <img src="imagem.jpg" class="imagem" alt="Imagem de aniversário">
-  <p class="frase">Feliz aniversário! Que este dia seja repleto de alegria e felicidade te amo!</p>
+  <p class="frase">Feliz aniversário! Que este dia seja repleto de alegria e felicidade!</p>
  </div>
 </body>
 </html>
+
+  
